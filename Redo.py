@@ -26,6 +26,6 @@ def git_clone(repo_url, destination_path=None):
 # Example usage:
 shutil.rmtree("/data/data/com.termux/files/home/Crypto-track")
 repo_url_to_clone = "https://github.com/krarktel112/Crypto-track.git"  # Replace with the actual repository URL
-local_path_to_clone_to = "/data/data/com.termux/files/home" # Optional: Specify a local directory
+local_path_to_clone_to = "/data/data/com.termux/files/home/new" # Optional: Specify a local directory
 git_clone(repo_url_to_clone, local_path_to_clone_to)
 
