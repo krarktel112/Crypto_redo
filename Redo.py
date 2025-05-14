@@ -1,3 +1,3 @@
-    import shutil
+import shutil
     
-    shutil.rmtree("path/to/non_empty/directory")
+shutil.rmtree("/data/data/com.termux/files/home/Crypto-track")
